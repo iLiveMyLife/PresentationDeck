@@ -1,0 +1,19 @@
+.presentaion-center {
+    margin: auto;
+    width: 70%;
+    padding: 40px;
+    text-align: center;
+}
+
+.carousel-style {
+    margin-top: 64px;
+    height: 160px;
+    color: #fff;
+    text-align: center;
+    background-color: #d9dde2;
+  }
+  .slogan-pic{
+    border-radius: 8px;
+    width: 150px;
+    margin-left: 400px;
+ }
