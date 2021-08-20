@@ -22,9 +22,10 @@ class Presentation extends Component {
             </div>
             {this.state.data.map((item,index)=>(
               <div className={"carousel-style"}>
-                <h3>{item.title}</h3>
-                <h4>{item.description}</h4>
                 {item.image ? <img className="slogan-pic" src={item.image} /> : null}
+                <h3 className="slogan-text">{item.title}</h3>
+                <h4 className="slogan-description">{item.description}</h4>
+                
                 </div>
               ))}
                 </Carousel>
@@ -33,3 +34,10 @@ class Presentation extends Component {
 }
 
 export default Presentation;
+
+
+
+
+
+
+

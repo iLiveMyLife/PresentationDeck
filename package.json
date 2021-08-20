@@ -1,0 +1,23 @@
+{
+  "name": "presentationdeck-main1",
+  "version": "1.0.0",
+  "description": "presentation package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iLiveMyLife/PresentationDeck.git"
+  },
+  "keywords": [
+    "My",
+    "firstLibrary"
+  ],
+  "author": "Meerim Maratova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iLiveMyLife/PresentationDeck/issues"
+  },
+  "homepage": "https://github.com/iLiveMyLife/PresentationDeck#readme"
+}

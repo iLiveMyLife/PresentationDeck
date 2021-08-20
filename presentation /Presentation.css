@@ -1,19 +1,33 @@
 .presentaion-center {
-    margin: auto;
-    width: 70%;
-    padding: 40px;
-    text-align: center;
+  margin: auto;
+  width: 70%;
+  padding: 40px;
+  text-align: center;
 }
 
 .carousel-style {
-    margin-top: 64px;
-    height: 160px;
-    color: #fff;
-    text-align: center;
-    background-color: #d9dde2;
-  }
-  .slogan-pic{
-    border-radius: 8px;
-    width: 150px;
-    margin-left: 400px;
- }
+  height: 160px;
+  color: #fff;
+  background-color: #d9dde2;
+  position: relative;
+  text-align: center;
+}
+.slogan-pic{
+  border-radius: 10px;
+  width: 550px;
+  height: 650px;
+  margin: auto;
+  object-fit:cover;
+}
+.slogan-text{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.slogan-description{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
